@@ -1,12 +1,10 @@
 from frontend import YOLO
 import cv2
-import argparse
 import os
-import json
 from utils import draw_boxes
 from matplotlib import pyplot as plt
 import numpy as np
-import time
+
 
 
 
@@ -31,8 +29,8 @@ grid_w=13
 grid_h=13
 
 weights_path="models/tiny_yolo.h5"
-test_path="/home/quest/yolo2/RBC_datasets/test"
-out_dir="/home/quest/yolo2/output/"
+test_path="/home/yolo2/RBC_datasets/test"
+out_dir="/home/yolo2/output/"
   
   
 yolo=YOLO(architecture=architecture,
