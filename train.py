@@ -1,6 +1,4 @@
-import argparse
 import os
-import json
 from preprocessing import parse_annotation
 import numpy as np
 from frontend import YOLO
